@@ -1,65 +1,72 @@
 <template>
-  <div class="footer bg-gray">
-    <img class="decoration-circles" src="../assets/images/decoration-circles.png" alt="alternative" />
+  <footer id="footer" class="footer">
+
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h4>If you want to find out which are the right influencers for your product marketing campaigns then follow us</h4>
-                <div class="social-container">
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-instagram fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-youtube fa-stack-1x"></i>
-                        </a>
-                    </span>
-                </div> 
-            </div> 
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="#" class="logo d-flex align-items-center">
+            <img src="https://www.ciputralife.com/cfind/source/images/logo-white.png" alt="">
+          </a>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
         </div>
-    </div> 
-  </div> 
-  <div class="copyright bg-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <ul class="list-unstyled li-space-lg p-small">
-                    <li><a href="#">Article Details</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div> 
-            <div class="col-lg-3 col-md-12 col-sm-12">
-                <p class="p-small statement">Copyright © <a href="#">Masuk Mia </a></p>
-            </div> 
-            <div class="col-lg-3 col-md-12 col-sm-12">
-                <p class="p-small statement">Distributed by <a href="https://masukmia.com" target="_blank">Masuk Mia </a></p>
-            </div> 
-        </div> 
-    </div> 
-  </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+            A108 Adam Street <br>
+            New York, NY 535022<br>
+            United States <br><br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Logis</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
 </template>
 
 <script>

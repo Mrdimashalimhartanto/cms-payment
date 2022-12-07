@@ -4,7 +4,8 @@ import router from '@/router/index.js'
 
 import 'bootstrap/dist/css/bootstrap.css'
 
-import './assets/css/main.css'
+// import './assets/css/main.css'
+// import './assets/vendor/bootstrap/css/bootstrap.min.css'
 // import './assets/css/styles.css'
 // import './assets/css/bootstrap.min.css'
 // import './assets/css/main.css'

@@ -386,7 +386,7 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: #2756ff;
+    background: #0000;
   }
 
   .navbar .dropdown ul {
@@ -1753,7 +1753,7 @@ section {
   width: 100%;
   min-height: 50vh;
   background-color: var(--color-secondary);
-  background-image: url("../images/hero-bg.png");
+  /* background-image: url("../images/hero"); */
   background-size: cover;
   background-position: center;
   position: relative;
