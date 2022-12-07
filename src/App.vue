@@ -1,7 +1,7 @@
 <template>
-  <router-view></router-view>
- <!-- <Navbar/>
- <Service/>
+<!-- <router-view></router-view> -->
+ <Navbar/>
+ <!-- <Service/>
  <DetailBasic/>
  <Feature/>
  <Card/>
@@ -12,7 +12,7 @@
 <script>
 
 // import component
-// import Navbar from '@/components/Navbar'
+import Navbar from '@/components/Navbar'
 // import Service from '@/components/Service'
 // import DetailBasic from '@/components/DetailBasic1'
 // import Feature from '@/components/Feature'
@@ -22,13 +22,8 @@
 
 export default {
   components: {
-    // Navbar,
-    // Service,
-    // DetailBasic,
-    // Feature,
-    // Card,
-    // Basic,
-    // Footer,
-  }
+    Navbar,
+  },
 }
 </script>
+

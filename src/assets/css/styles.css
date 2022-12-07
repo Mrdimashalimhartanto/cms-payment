@@ -764,7 +764,7 @@ a:hover {
 .basic-3 .text-container {
 	padding: 5rem 1.5rem 5.5rem 1.5rem;
 	border-radius: 28px;
-	background: url('../images/invitation-background.jpg') center center no-repeat;
+	/* background: url('../assets/images/invitation-background.jpg') center center no-repeat; */
 	background-size: cover;
 }
 
