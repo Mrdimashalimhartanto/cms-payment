@@ -5,7 +5,7 @@
     <div class="container position-relative">
       <div class="row d-flex justify-content-center">
         <div class="col-lg-6 text-center">
-          <h2>About</h2>
+          <h2>Produk</h2>
           <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
         </div>
       </div>
@@ -32,9 +32,9 @@
         <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
       </div>
       <div class="col-lg-6 content order-last  order-lg-first">
-        <h3>About Us</h3>
+        <h3>Produk Kami</h3>
         <p>
-          Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsum porro, reprehenderit quia deleniti sed in eum voluptates harum dignissimos dolorum debitis optio, quas fugit molestias? Magnam itaque velit unde!.
         </p>
         <ul>
           <li data-aos="fade-up" data-aos-delay="100">

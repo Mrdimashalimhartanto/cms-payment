@@ -1,6 +1,7 @@
 <template>
   <Navbar/>
   <Hero2/>
+  <Footer/>
   <!-- <Jumbotron/> -->
   <!-- <Service/>
   <Hero/>
@@ -11,6 +12,7 @@
 <script>
 import Navbar from '@/components/Navbar'
 import Hero2 from '@/components/Hero2'
+import Footer from '@/components/Footer'
 // import Jumbotron from '@/components/Jumbotron'
 // import Service from '@/components/Service'
 // import Hero from '@/components/Hero'
@@ -21,6 +23,7 @@ export default {
   components: {
     Navbar,
     Hero2,
+    Footer,
     // Jumbotron,
     // Service,
     // Hero,

@@ -13,7 +13,7 @@ const routes = [
     component: IndexPage,
   },
   {
-    path: '/login',
+    path: '/tentang-kami',
     name: 'LoginPage',
     component: LoginPage,
   },

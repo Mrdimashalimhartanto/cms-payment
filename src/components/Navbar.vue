@@ -14,10 +14,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><router-link class="active" to="/">Beranda</router-link></li>
-          <li><router-link to="/login">Masuk</router-link></li>
-          <li><router-link to="/register">Register</router-link></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><router-link to="/tentang-kami">Tentang Kami</router-link></li>
+          <li><router-link to="/register">Produk</router-link></li>
+          <li><a href="#">Pertanyaan</a></li>
+          <li><a href="#">Daftar</a></li>
           <li><a class="get-a-quote" href="#">Masuk</a></li>
         </ul>
       </nav>
