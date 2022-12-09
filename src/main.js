@@ -1,8 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from '@/router/index.js'
-
+import 'jquery/dist/jquery.min'
+import 'popper.js/dist/popper.min'
 import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.js'
 
 // import './assets/css/main.css'
 // import './assets/vendor/bootstrap/css/bootstrap.min.css'
@@ -22,5 +24,3 @@ const app = createApp(App)
 app.use(router)
 app.mount('#app')
 
-
-import 'bootstrap/dist/js/bootstrap.js'
