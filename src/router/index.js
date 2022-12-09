@@ -3,10 +3,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import LoginPage from '@/views/Login/LoginPage'
 import RegisterPage from '@/views/Register/RegisterPage'
 import IndexPage from '@/views/Pages/Index'
-import IndexPageTransaction from '@/views/transaction/indexTransaction'
-import createTransaction from '@/views/transaction/createTransaction'
-import EditTransaction from '@/views/transaction/editTransaction'
-import DeleteTransaction from '@/views/transaction/deleteTransaction'
+// ROUTER UNTUK HALAMAN TRANSACTION
+
 // router
 const routes = [
   {
@@ -24,25 +22,27 @@ const routes = [
     name: 'RegisterPage',
     component: RegisterPage,
   },
+
+  // ROUTER KE HALAMAN TRANSACTION 
   {
     path: '/transaction',
-    name: 'IndexTransaction',
-    component: IndexPageTransaction,
+    name: 'transaction.index',
+    component: () => import('@/views/transaction/Index.vue'),
   },
   {
     path: '/create-transaction',
-    name: 'CreateTransaction',
-    component: createTransaction,
+    name: 'transaction.create',
+    component: () => import('@/views/transaction/Create.vue'),
   },
   {
     path: '/edit-transaction/:id',
-    name: 'EditTransaction',
-    component: EditTransaction,
+    name: 'transaction.edit',
+    component: () => import('@/views/transaction/Edit.vue'),
   },
   {
     path: '/delete-transaction',
-    name: 'DeleteTransaction',
-    component: DeleteTransaction,
+    name: 'transaction.delete',
+    component: () => import('@/views/transaction/Delete.vue'),
   },
 ]
 

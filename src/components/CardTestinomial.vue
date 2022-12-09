@@ -84,6 +84,9 @@
 
 <script>
 export default {
-  name: 'CardIndex'
+  name: 'CardIndex',
+  components: {
+    
+  },
 }
 </script>

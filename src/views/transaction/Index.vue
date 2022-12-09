@@ -14,48 +14,21 @@
           <div class="table-wrapper">
             <table class="table-responsive card-list-table">
               <thead>
-                <th>Nama</th>
-                <th>order id</th>
-                <th>Amount</th>
-                <th>Status</th>
-                <th>Payment Channel</th>
-                <th>Transaction Time</th>
+                <th>Title</th>
+                <th>Amount </th>
+                <th>Type</th>
+                <th>Time</th>
+                <th>Action</th>
               </thead>
               <tbody>
                 <tr v-for="(transaction, index) in transaction.data" :key="index">
-                  <td>{{transaction.name}}</td>
-                  <td>{{transaction.order_id}}</td>
+                  <td>{{transaction.title}}</td>
                   <td>{{transaction.amount}}</td>
-                  <td>{{transaction.status}}</td>
-                  <td>{{transaction.payment_channel}}</td>
-                  <td>{{transaction.created_time}}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <!-- <div class="card-body">
-            <div class="table">
-              <thead>
-                <tr>
-                  <th>Nama</th>
-                  <th>order id</th>
-                  <th>Amount</th>
-                  <th>Status</th>
-                  <th>Payment Channel</th>
-                  <th>Transaction Time</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for="(transaction, index) in transaction.data" :key="index">
-                  <td>{{transaction.name}}</td>
-                  <td>{{transaction.order_id}}</td>
-                  <td>{{transaction.amount}}</td>
-                  <td>{{transaction.status}}</td>
-                  <td>{{transaction.payment_channel}}</td>
-                  <td>{{transaction.created_time}}</td>
+                  <td>{{transaction.type}}</td>
+                  <td>{{transaction.time}}</td>
                   <td>
                     <div class="btn-group">
-                      <router-link :to="{ name: 'EditTransaction', params: {id: 1}}" class="btn btn-sm btn-warning">
+                      <router-link :to="{ name: 'transaction.edit', params: {id: transaction.id}}" class="btn btn-sm btn-warning">
                         EDIT
                       </router-link>
                       <button class="btn btn-sm btn-danger">DELETE</button>
@@ -63,8 +36,8 @@
                   </td>
                 </tr>
               </tbody>
-            </div>
-          </div> -->
+            </table>
+          </div>
         </div>
       </div>
     </div>
@@ -78,7 +51,7 @@ import { onMounted, ref } from 'vue';
 
 
 export default {
-  'name': 'indexTransaction',
+  'name': 'IndexTransaction',
   components: {
     navbarTransaction,
   },
@@ -91,7 +64,7 @@ export default {
 
     onMounted(() => { 
       // get data api endpoint
-      axios.get('http://be_laravel_jwt.dev/api/auth/view_get_list_trans_charge')
+      axios.get('http://laravel-vue-payment.dev/api/transaction')
         .then((result) => {
           transaction.value = result.data
         }).catch((err) => { 
